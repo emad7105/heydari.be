@@ -1,0 +1,21 @@
+- name: page-research.md
+  title: Research
+  icon: fas fa-microscope
+- name: page-teaching.md
+  title: Teaching
+  icon: fas fa-user-friends
+- name: page-publication.md
+  title: Publications
+  icon: fas fa-university
+- name: page-cv.md
+  title: CV
+  icon: fas fa-clipboard
+- name: page-blog.md
+  title: Blog
+  icon: fas fa-newspaper
+# - name: page-assets.md
+#   title: Page Assets
+#   icon: fas fa-file-alt
+# - name: customization.md
+#   title: Research
+#   icon: fas fa-edit 

@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: white;
+  color: $body-color;
+  line-height: 24px;
+  margin: 0;
+  border-top: 7px solid theme-color("primary");
+}
+
+body > .container {
+  min-height: 100vh;
+}
+
+blockquote {
+  border-left: 2px solid gray("600");
+  padding-top: 0.5rem; padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  color: gray("600");
+  font-style: italic;
+
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $body-color;
+  font-family: $font-family-base;
+
+  &.title {
+    font-weight: 800;
+  }
+}
+
+ul {
+  margin: 1em 0em 1em 1em;
+  list-style: disc;
+}
+
+.related .related-posts {
+  margin: 1em 0em;
+  list-style: none;
+}
+
+a {
+  color: theme-color("primary");
+  text-decoration: underline;
+
+  &:hover {
+    color: theme-color("primary");
+  }
+
+  &:visited {
+    color: theme-color("primary");
+  }
+
+  &.btn {
+    text-decoration: none;
+  }
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meta {
+  color: lighten($body-color, 20%);
+  margin: 0 0 10px 0;
+
+  > * {
+    margin-right: 8px;
+  }
+}
+
+span.date-iconed::before {
+  content: '\f783';
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 8px;
+}
+
+span.tags-iconed::before {
+  content: '\f02b';
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 8px;
+}
+
+span.read-time-iconed::before {
+  content: '\f017';
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 8px;
+} 
+
+.content {
+  font: 400 16px/22px $font-family-base;
+  padding-top: 25px;
+  min-height: 400px;
+}
+
+@media (min-width: #{map-get($grid-breakpoints, lg)}) {
+  .content {    
+    border-left: 1px solid gray("300");
+    padding-left: 40px;
+  }
+}
+
+.aside {
+  font-size: 75%;
+  color: #666;
+}
+
+#logo, #gravatar {
+  margin-bottom: 25px;
+}
+
+#gravatar {
+  width: 180px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+}
+
+i.fa-hn {
+  font-family: $font-family-base;
+  text-align: center;
+  font-size: 18px !important;
+  position: relative;
+  color: white;
+}
+
+.home {
+  font-size: 24px;
+  float: right;
+  color: #AAA;
+}
+
+.home:hover {
+  text-decoration: none;
+}
+
+.disclaimer p {
+  margin-top: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.footnotes {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.icon-overlay {
+  font-size: 16px !important;
+  position: relative;
+  bottom: 27px;
+  left: 5px;
+  color: white;
+}
+
+.caption {
+  margin: 0 auto;
+  text-align: center;
+  font-size: smaller;
+  padding-bottom: 10px
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+@import "lagomier/sidebar";
+@import "lagomier/fab";
+@import "lagomier/footer";
+@import "lagomier/post";
+@import "lagomier/page";

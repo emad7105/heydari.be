@@ -1,0 +1,7 @@
+<ul class="related-posts">
+    {% for post in site.related_posts limit: page.related_posts %}
+    <li>
+        <span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

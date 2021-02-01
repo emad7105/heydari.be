@@ -1,0 +1,15 @@
+- name: Twitter
+  display: heydari_be 
+  id: heydari_be
+  url: https://twitter.com/heydari_be
+  icon: fab fa-twitter
+- name: Google Scholar
+  display: Heydari Beni
+  id: 2qzHvVUAAAAJ
+  url: https://scholar.google.com/citations?user=2qzHvVUAAAAJ&hl=en
+  icon: fab fa-google
+- name: Github 
+  display: emad7105
+  id: emad7105
+  url: https://github.com/emad7105
+  icon: fab fa-github

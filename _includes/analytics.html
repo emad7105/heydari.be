@@ -1,0 +1,15 @@
+{% comment %}
+analytics.html is include in the default layout when the a google_analytics_key
+is provided in the theme.yml data file.  For more information you can check out
+https://analytics.google.com/analytics/ to create an account and Id
+{% endcomment%}
+{% if site.data.theme.google_analytics_key %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.theme.google_analytics_key }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.data.theme.google_analytics_key }}');
+</script>
+{% endif %}

@@ -1,0 +1,28 @@
+# General Jekyll Config
+
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+include: # include files such as .htaccess in build
+keep_files: # generally used for build tool files
+timezone: America/New_York
+# encoding: # default to utf-8
+
+show_drafts: false # whether to show _drafts content
+future: false # whether ot show _posts with future dates
+lsi: false # produce indexes for posts
+#limit_posts: # Number of posts to limit during build
+#incremental: # experimental 
+
+#port: # unused
+#host: # unused 
+baseurl: /jekyll-lagomier
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /:year/:month/:day/:title:output_ext
+      comments: true
+      related_links: 5

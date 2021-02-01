@@ -1,0 +1,30 @@
+<div class="archive-post-item meta">
+    {% if include.date_format %}
+    <span class="date">
+        {{ include.post.date | date: include.date_format }}
+    </span>    
+    {% endif %}
+    <span class="title link">
+        <a href="{{ include.post.url | relative_url }}" alt="Link to {{ include.post.title }}">
+            {{ include.post.title }}
+        </a>
+    </span>
+    {% if include.categories and include.post.categories %}
+    <span class="categories">
+        {% for cat in include.post.categories %}
+        <span class="badge badge-pill badge-light">
+            {{ cat }} 
+        </span>
+        {% endfor %}
+    </span>
+    {% endif %}
+    {% if include.tags and include.post.tags %}
+    <span class="tags">
+        {% for tag in include.post.tags %}
+        <span class="badge badge-pill badge-light">
+            {{ tag }} 
+        </span>
+        {% endfor %}
+    </span>
+    {% endif %}    
+</div>

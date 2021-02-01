@@ -1,0 +1,32 @@
+---
+---
+
+// Override this file by copying and replacing/adding details
+// in your own *.github.io repository. 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+// Lagomier theme is based on Bootstrap 4 which provides a number of theming options
+// found at https://getbootstrap.com/docs/4.3/getting-started/theming/
+// Copy this file and override values prior to @import "bootstrap/bootstrap" and
+// "lagomier" which uses the same color variables.
+$enable-responsive-font-sizes: true;                // Responsive h* and display-* 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 962px
+) !default;
+
+// Lagom theme variables
+// These are pulled in from the _date/theme.yml file and are used within
+// the screen.scss file
+
+@import "bootstrap/bootstrap";
+@import "lagomier";
+@import "syntax";
+
+// Font Awesome variables and imports
+$fa-font-path: "../webfonts";
+@import "fa/fontawesome";
+@import "fa/solid";
+@import "fa/brands";

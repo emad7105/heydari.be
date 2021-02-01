@@ -1,0 +1,163 @@
+.sidebar {
+  display: none;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+
+  a,
+  a:hover,
+  a:active {
+    text-decoration: none;
+
+    i {
+      width: 1.5em;
+    }
+  }
+
+  nav {
+    margin: 15px 0px;
+    padding-top: 15px;
+    border: dotted #40474f;
+    border-width: 1px 0px 0px 0px;
+  }
+
+  ul {
+    margin: 0px;
+    list-style: none;
+  }
+
+  >section {
+    position: sticky;
+    top: 32px;
+  }
+}
+
+body.menu-open {
+  .sidebar {
+    display: block;
+  }
+
+  overflow: hidden;
+}
+
+#bio {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: dotted lighten($body-color, 13.5%);
+  border-width: 1px 0px 0px 0px;
+  padding-top: 15px;
+}
+
+#stalker {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: dotted lighten($body-color, 13.5%);
+  border-width: 1px 0px 0px 0px;
+  padding-top: 15px;
+
+  span {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+  
+    a {
+      overflow: hidden;
+      float: left;
+  
+      &:hover {
+        text-decoration: none;
+        color: theme-color("primary");
+      }
+    }
+  
+    i {
+      font-size: 28px;
+      margin-right: 5px;
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: #{map-get($grid-breakpoints, lg)}) {
+  .sidebar {
+    border-top: 7px solid theme-color("primary");
+    position: fixed;
+    background-color: white;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 1000;
+    padding: 2em 4em;
+    overflow: scroll;
+
+    #sidebar-wrapper {
+      max-width: 300px;
+      margin: auto;
+      margin-bottom: 56px;
+    }
+
+    #main-menu ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      li:nth-child(n+3) {
+        margin-top: 16px;
+      }
+
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+
+        i {
+          font-size: 1.5em;
+          width: inherit;
+          margin-bottom: 8px;          
+        }
+      }
+    }
+
+    #stalker {
+      text-align: center;
+
+      >span {
+        display: none;
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+
+        i {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: #{map-get($grid-breakpoints, lg)}) {
+  .sidebar {
+    display: block;
+    padding-top: 25px;
+    padding-right: 40px;
+    font-family: $font-family-base;
+  }
+
+  .sidebar p {
+    font-weight: 200;
+  }
+
+  .sidebar a {
+    font-weight: 400;
+  }
+}

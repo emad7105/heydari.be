@@ -1,0 +1,40 @@
+section.post {
+
+  div.header {
+    margin-bottom: 1.5em;
+  }
+
+  ul,
+  ol {
+    margin-left: 1.35em;
+  }
+
+  > div {
+    margin-bottom: 2em;
+  }
+}
+
+// Archive and Categories page styles
+.archive-year {
+  margin-top: 0.5em;
+}
+
+.category-title {
+  margin-top: 0.5em;
+}
+
+.archive-post-item {
+  display: flex;
+
+  .date {
+    &:after {
+      content: "\00BB";
+    }
+
+    margin-right: 0.5em;
+  }
+
+  .title {
+    margin-right: 0.5em;
+  }
+}

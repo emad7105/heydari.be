@@ -1,0 +1,13 @@
+<section id="nav-header">
+  <a href="/">
+    {% if site.data.theme.icon %}
+    <img src="{{ site.data.theme.icon | relative_url }}" id="gravatar" alt="{{ site.data.theme.name }}" />
+    {% elsif site.data.theme.social.gravatar %}
+    <img src="https://secure.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar"
+      alt="{{ site.data.theme.name }}" />
+    {% else %}
+    <img src="{{ '/assets/img/logo.png' | relative_url }}" id="logo" alt="{{ site.data.theme.name }}" />
+    {% endif %}
+  </a>
+  <h5><a href="{{ '/' | relative_url }}">{{ site.data.theme.name }}</a></h5>
+</section>

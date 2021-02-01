@@ -1,0 +1,11 @@
+<section id="nav-footer">
+  {% if site.data.theme.bio %}
+  <div id="bio">
+    <p>{{ site.data.theme.bio }}</p>
+  </div>
+  {% endif %}
+  <div id="stalker">
+    {% if site.data.theme.follow_me %}<span>{{ site.data.theme.follow_me }}</span>{% endif %}
+    {% include social-list.html %}
+  </div>
+</section>

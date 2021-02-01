@@ -1,0 +1,12 @@
+<ul id="social-list">
+  {% for social in site.data.social %}
+  {% if social.url %}
+  <li>
+    <a title="{{ site.data.theme.social.display }}" href="{{ social.url }}">
+      <i class="{{ social.icon }}"></i>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+

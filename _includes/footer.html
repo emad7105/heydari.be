@@ -1,0 +1,12 @@
+<div class="disclaimer">
+  {% if page.disclaimer %}
+  <p>{{page.disclaimer}}</p>
+  {% endif %}
+  {% if site.data.theme.disclaimer %}
+  <p>{{ site.data.theme.disclaimer }}</p>
+  {% endif %}
+
+  <p>
+    © {{ site.data.theme.name }}, {{ 'now' | date: "%Y" }} &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/kenjdavidson/lagomier">Lagomier theme</a>
+  </p>
+</div>

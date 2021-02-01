@@ -1,0 +1,9 @@
+<div id="fab-wrapper">
+    <button id="fab-menu">
+        {% if site.data.theme.fab %}
+        <img src="{{ site.data.theme.fab | relative_url }}" id="fab-image" alt="{{ site.data.theme.name }}" />
+        {% else %}
+        <img src="{{ '/assets/img/logo.png' | relative_url }}" id="fab-image" alt="{{ site.data.theme.name }}" />
+        {% endif %}
+    </button>
+</div>
