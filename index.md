@@ -21,6 +21,13 @@ I received a Master's degree in _distributed systems and computer networks_ from
 
 Previously, I was a research associate at the imec-DistriNet research group, KU Leuven. Before joining imec-DistriNet, I worked on cloud computing subjects in [Alcatel-Lucent][alcatel] (now [Nokia][nokia]) as part of my Master's thesis research. Furthermore, I worked for a number of years in the software industry as a software engineer in the Brussels region.
 
+__What am I doing now?__
+- Writing my PhD thesis
+- Writing a paper in the scope of security of microservices in collaboration with some colleagues in our [lab][distrinet]
+- Supervising 3 smart master's thesis students
+- (on hold atm due to my heavy workload) Working on an extension to [ScrambleDB][scrambledb] to support more functionalities without extra leakage
+- 100 other things
+
 
 [lantam]: https://distrinet.cs.kuleuven.be/research/
 [distrinet]: https://distrinet.cs.kuleuven.be
@@ -32,3 +39,4 @@ Previously, I was a research associate at the imec-DistriNet research group, KU 
 [ua]: https://www.uantwerpen.be/en/
 [ui]: https://ui.ac.ir/EN
 [research]:research
+[scrambledb]: https://petsymposium.org/2019/files/papers/issue3/popets-2019-0048.pdf

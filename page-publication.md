@@ -22,7 +22,7 @@ Heydari Beni, E., B. Lagaisse, W. Joosen. 2019. International Journal of High Pe
 #### Conferences
 
 `WebLedger: a Byzantine Fault-Tolerant State-Based Ledger for a Decentralized Web without a Blockchain`
-(Under review) Jannes, K., Heydari Beni, E., Lagaisse, B., Joosen, W. (2020).  In: EuroSys’21). April 26th-29th, 2021
+(To be submitted again!) Jannes, K., Heydari Beni, E., Lagaisse, B., Joosen, W. (2020). April 26th-29th, 2021
 
 `DataBlinder: A Distributed Data Protection Middleware Supporting Search and Computation on Encrypted Data`
 Heydari Beni, E., B. Lagaisse, W. Joosen, and A. Aly. 2019. Proceedings of the 20th International Middleware Conference Industrial Track (Middleware Industry ’19). [[pdf][datablinder], slides]
