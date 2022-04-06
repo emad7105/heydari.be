@@ -15,7 +15,7 @@ lsi: false # produce indexes for posts
 #port: # unused
 #host: # unused 
 #baseurl: /jekyll-lagomier
-baseurl: /home
+baseurl:
 highlighter: rouge
 
 defaults:

@@ -8,6 +8,9 @@ permalink: /publications/
 <i class="fa fa-bookmark"></i> [Download all][papers] \| [Google Scholar][gscholar] \| [KU Leuven lirias][kulpubs]   
 
 
+#### PhD thesis
+`Deployment efficiency and data security for the cloud` Emad Heydari Beni, supervisors: Wouter Joosen, Bert Lagaisse, Jury: Nigel Smart, Yves Moreau, Filip De Turck, Dimitri Van Landuyt, Yolande Berbers. [[pdf][phd]]
+
 
 #### Journals
 
@@ -21,8 +24,13 @@ Heydari Beni, E., B. Lagaisse, W. Joosen. 2019. International Journal of High Pe
 
 #### Conferences
 
+
 `WebLedger: a Byzantine Fault-Tolerant State-Based Ledger for a Decentralized Web without a Blockchain`
 (To be submitted again!) Jannes, K., Heydari Beni, E., Lagaisse, B., Joosen, W. (2020). April 26th-29th, 2021
+
+
+`ThunQ: A Distributed and Deep Authorization Middleware for Early and Lazy Policy Enforcement in Microservice Applications`
+Martijn Sauwens, Emad Heydari Beni, Kristof Jannes, Bert Lagaisse, Wouter Joosen. 2021. International Conference on Service-Oriented Computing (ICSOC'21). [[pdf][icsocthunq]]
 
 `DataBlinder: A Distributed Data Protection Middleware Supporting Search and Computation on Encrypted Data`
 Heydari Beni, E., B. Lagaisse, W. Joosen, and A. Aly. 2019. Proceedings of the 20th International Middleware Conference Industrial Track (Middleware Industry ’19). [[pdf][datablinder], slides]
@@ -76,3 +84,5 @@ Panzeri, Marco, Roberto d’Ippolito, Emad Heydari Beni, Bert Lagaisse, Martin M
 [stef]: ../papers/WoC-stef.pdf
 [nafems]: ../papers/2018.NAFESM.Smart.deployment.and.execution.of.engineering.simulation.workflows.on.cloud.architectures.pdf
 [matt]: ../papers/2019.WOC.A-framework-for-black-box-SLO-tuning-of-multi-tenant-applications-in-Kubernetes.pdf
+[icsocthunq]: ../papers/2021.ThunQ-A.Distributed.and.Deep.Authorization.Middleware.for.Early.and.Lazy.Policy.Enforcement.in.Microservice.Applications.pdf
+[phd]: ../papers/2021.Emad-thesis.pdf
