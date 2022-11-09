@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Let's Encrypt Certificate Renewal for Spring Boot
-categories: [Spring, Security, TLS, Tutorials]
-tags: [Spring, Security, TLS, Tutorials]
+categories: [Spring, TLS, Tutorials]
+tags: [Spring, TLS, Tutorials]
 ---
 
 In the previous post, we discussed how to fetch a valid certificate using Let's Encrypt client. In this post, we see how we can renew our certificates and use them with Spring Boot.

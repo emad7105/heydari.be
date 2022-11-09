@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Spring Boot Application Secured by Let's Encrypt Certificate
-categories: [Spring, Security, TLS, Tutorials]
-tags: [Spring, Security, TLS, Tutorials]
+categories: [Spring, TLS, Tutorials]
+tags: [Spring, TLS, Tutorials]
 ---
 
 
