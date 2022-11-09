@@ -24,12 +24,11 @@ I received a PhD degree from KU Leuven (Belgium, 2021), a Master's degree in _di
 Previously, I was a research associate at the imec-DistriNet research group, KU Leuven. Before joining imec-DistriNet, I worked on cloud computing subjects in [Alcatel-Lucent][alcatel] (now [Nokia][nokia]) as part of my Master's thesis research. Furthermore, I worked for a number of years in the software industry as a software engineer in the Brussels region.
 
 __The latest news and what am I doing now?__
-- Our [paper][icsocpaper] has been accepted at [ICSOC'21][icsoc] (15% acceptance rate); the paper was based on a collaboration with several colleagues at [distrinet][distrinet] and a Flemish industry partner.
+- Ourt [paper][defired] has been accepted and presented at the [EuroSec '22][eurosec22] of [EuroSys '22][eurosys22] in Rennes, France.
+- I will be attending: [EuroSys '22][eurosys22] and [Real-World Crypto (RWC '22)][rwc22].
+- Our [paper][icsocpaper] has been accepted at [ICSOC '21][icsoc] (15% acceptance rate); the paper was based on a collaboration with several colleagues at [distrinet][distrinet] and a Flemish industry partner.
 - I successfully defended my PhD on November 18, 2021.
 - At [COSIC][cosic], my current goal is to understand and explore the applications of secure multiparty computation ([MPC][mpc]) and homomorphic encryption ([HE][he]).
-- My master's thesis students: Jonathan Du & Pieter-Jan Vrielynck successfully defended their thesis.
-- I supervise 3 smart master's thesis students.
-- (on hold atm due to my heavy workload) Working on an extension to [ScrambleDB][scrambledb] to support more functionalities without extra leakage
 
 [ns]:https://homes.esat.kuleuven.be/~nsmart/
 [icsoc]: http://www.icsoc.org/
@@ -48,3 +47,7 @@ __The latest news and what am I doing now?__
 [research]:research
 [scrambledb]: https://petsymposium.org/2019/files/papers/issue3/popets-2019-0048.pdf
 [icsocpaper]: https://link.springer.com/chapter/10.1007%2F978-3-030-91431-8_13
+[defired]: https://dl.acm.org/doi/pdf/10.1145/3517208.3523759
+[eurosec22]: https://concordia-h2020.eu/eurosec-2022/
+[eurosys22]: https://2022.eurosys.org/
+[rwc22]: https://rwc.iacr.org/2022/
