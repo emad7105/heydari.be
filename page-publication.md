@@ -13,6 +13,9 @@ permalink: /publications/
 
 
 #### Journals
+`BeauForT: Robust Byzantine Fault Tolerance for Client-centric Mobile Web Applications`
+Jannes, K., Heydari Beni, E., Lagaisse, B., Joosen, W. 2023. <span style="color:blue">IEEE Transactions on Parallel and Distributed Systems</span> (<span style="color:blue">TPDS</span>) [[pdf][BeauForT]]
+
 
 `CryptDICE: Distributed Data Protection System for Secure Cloud Data Storage and Computation`
 Rafique, Ansar, Van Landuyt, Dimitri, Heydari Beni, E., Lagaisse, Bert, and Joosen, Wouter. 2021. <span style="color:blue">Journal of Information Systems.</span>[[pdf][cryptdice]]
@@ -23,11 +26,8 @@ Heydari Beni, E., B. Lagaisse, W. Joosen. 2019. <span style="color:blue">Interna
 
 
 #### Conferences
-
-
-`WebLedger: a Byzantine Fault-Tolerant State-Based Ledger for a Decentralized Web without a Blockchain`
-(To be submitted again!) Jannes, K., Heydari Beni, E., Lagaisse, B., Joosen, W. (2020). April 26th-29th, 2021
-
+`MPC With Delayed Parties Over Star-Like Networks` (under review)
+Mariana Gama, Emad Heydari Beni, Emmanuela Orsini, Nigel Smart, Oliver Zajonc. 2023. (under review) Cryptology ePrint Archive (<span style="color:blue">eprint'23</span>). [[pdf][bbmpc]]
 
 `ThunQ: A Distributed and Deep Authorization Middleware for Early and Lazy Policy Enforcement in Microservice Applications`
 Martijn Sauwens, Emad Heydari Beni, Kristof Jannes, Bert Lagaisse, Wouter Joosen. 2021. International Conference on Service-Oriented Computing (<span style="color:blue">ICSOC'21</span>). [[pdf][icsocthunq]]
@@ -94,3 +94,5 @@ Panzeri, Marco, Roberto d’Ippolito, Emad Heydari Beni, Bert Lagaisse, Martin M
 [defired]: ../papers/2022.defired.pdf 
 [coldstart-video]: https://www.youtube.com/watch?v=2xAjhes-aLY
 [coldstart-pdf]: ../papers/2021.cold-start-sac.pdf
+[BeauForT]:../papers/tpds23_beaufort.pdf
+[bbmpc]: https://eprint.iacr.org/2023/096.pdf
