@@ -4,6 +4,6 @@ title: Curriculum vitae
 permalink: /cv/
 ---
 
-<i class="fa fa-bookmark"></i> CV [[pdf version][cvpdf]]
+<i class="fa fa-bookmark"></i> CV [[pdf version][cvpdf]] (outdated)
 
 [cvpdf]: ../cv.pdf

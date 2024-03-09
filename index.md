@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-I am a researcher at [Bell Labs][bell] and a Postdoc at [COSIC][cosic] ([KU Leuven][kul]) (supervised by [Prof. Nigel Smart][ns]). Previously, I worked as a PostDoc at [imec-DistriNet][distrinet] (supervised by [Prof. Wouter Joosen][wj]) where I also completed my [PhD][phd] in 2021.
+I am a cryptography research scientist at [Bell Labs][bell] and a Postdoc at [COSIC][cosic] ([KU Leuven][kul]) (advised by [Prof. Nigel Smart][ns]). Previously, I worked as a PostDoc at [imec-DistriNet][distrinet] (advised by [Prof. Wouter Joosen][wj]) where I also completed my [PhD][phd] in 2021.
 
 Research interests ([more here][research]):
 - Computing on encrypted data: Secure multiparty computation ([MPC][mpc]) & Homomorphic encryption ([HE][he])
@@ -11,26 +11,27 @@ Research interests ([more here][research]):
 - Middleware and software architecture: adaptation, reflection and data security
 - [previously] Cloud computing infrastructure: capacity planning, container orchestration frameworks
 
-__COED Industry Days:__ I am a co-organizer of computing-on-encrypted-data industry days. Other co-organizers are [Prof. Nigel Smart][ns], [Svetla Nikova][svetla], [Emmanuela Orsini][emma]. Previous editions: 
-- 2021 - [Secure Multiparty Computation (MPC)][coed21] (code: COED4321)
+__COED Industry Days:__ I am a co-organizer of computing-on-encrypted-data industry days. Other co-organizers are [Prof. Nigel Smart][ns], [Prof. Ingrid Verbauwhede][iv], [Svetla Nikova][svetla], and [Emmanuela Orsini][emma]. Previous editions: 
+- 2024 - [Leuven Hardware Acceleration Summit for FHE+ZKP][coed24]
+- 2023 - [Legal, policy and government applications][coed23]
 - 2022 - [Fully Homomorphic Encryption (FHE)][coed22]
+- 2021 - [Secure Multiparty Computation (MPC)][coed21] (code: COED4321)
 
 
-I received a PhD degree from KU Leuven (Belgium, 2021), a Master's degree in _distributed systems and computer networks_ from the [University of Antwerp][ua] (Belgium, 2014), and a Bachelor's degrees in _computer hardware engineering_ from the [University of Isfahan][ui] (Iran, 2010). 
+I received a Ph.D. from KU Leuven (Belgium, 2021), a Master's degree in distributed systems and computer networks from the [University of Antwerp][ua] (Belgium, 2014), and a Bachelor's degree in computer hardware engineering from the [University of Isfahan][ui] (Iran, 2010). 
 
 Previously, I was a research associate at the imec-DistriNet research group, KU Leuven. Before joining imec-DistriNet, I worked on cloud computing subjects in [Alcatel-Lucent][alcatel] (now [Nokia][nokia]) as part of my Master's thesis research. Furthermore, I worked for a number of years in the software industry as a software engineer in the Brussels region.
 
 __The latest news and what am I doing now?__
-- Our recent work is out on [eprint][bbmpc] (2023); we present and thoroughly evaluate a star-like networking model for MPC protocols with stragglers.
+- Currently, our Leuven COED Summit speaker line-up includes Intel, Google, Niobium Microsystems, COSIC, Ingonyama, Optalysys and Fabric Cryptography.
+- I will be attending [Real-World Crypto (RWC '24)][rwc24].
+- Our recent [paper][relay] on "MPC With Delayed Parties Over Star-Like Networks" has been accepted at [Asiacrypt][asiacrypt23], one of the IACR flagship conferences.
+- I hosted [Sylvain Chatel][sylvain] from [EPFL][epflspring] at Bell Labs in 2023, and together, we initiated the applied FHE research in the lab.
+- I hosted two PhD interns at Bell Labs in 2023: (1) [Mariana Gama][mariana], and (2) [Erik Pohle][erik], and together we advanced the MPC research in the lab.
 - Our recent [paper][BeauForT] on "Robust Byzantine Fault Tolerance for
 Client-centric Mobile Web Applications" has been published in ([IEEE TPDS][BeauForTdoi] 2023)
-- Joined [Bell Labs][bell] in 2022.
-- Our [paper][defired] has been accepted and presented at the [EuroSec '22][eurosec22] of [EuroSys '22][eurosys22] in Rennes, France.
-- I will be attending: [EuroSys '22][eurosys22] and [Real-World Crypto (RWC '22)][rwc22].
-- Our [paper][icsocpaper] has been accepted at [ICSOC '21][icsoc] (15% acceptance rate); the paper was based on a collaboration with several colleagues at [distrinet][distrinet] and a Flemish industry partner.
 
-
-[bell]:https://www.bell-labs.com
+[bell]:https://www.bell-labs.com/about/researcher-profiles/emad-heydari_beni/
 [ns]:https://homes.esat.kuleuven.be/~nsmart/
 [icsoc]: http://www.icsoc.org/
 [he]: https://en.wikipedia.org/wiki/Homomorphic_encryption
@@ -51,6 +52,7 @@ Client-centric Mobile Web Applications" has been published in ([IEEE TPDS][BeauF
 [eurosec22]: https://concordia-h2020.eu/eurosec-2022/
 [eurosys22]: https://2022.eurosys.org/
 [rwc22]: https://rwc.iacr.org/2022/
+[rwc24]: https://rwc.iacr.org/2024/
 [phd]: ../papers/2021.Emad-thesis.pdf
 [zkp]: https://en.wikipedia.org/wiki/Zero-knowledge_proof
 [BeauForT]:../papers/tpds23_beaufort.pdf
@@ -60,3 +62,14 @@ Client-centric Mobile Web Applications" has been published in ([IEEE TPDS][BeauF
 [svetla]: https://www.esat.kuleuven.be/cosic/people/svetla-petkova-nikova/
 [coed21]: https://www.esat.kuleuven.be/cosic/projects/coed/event/internal-event-coed-industry-day/
 [coed22]: https://www.esat.kuleuven.be/cosic/projects/coed/event/internal-event-coed-industry-day-2/
+[coed23]: https://www.esat.kuleuven.be/cosic/projects/coed/event/coed-industry-day/
+[coed24]: https://belfort.eu/coedhwsummit.html
+[asiacrypt23]:https://asiacrypt.iacr.org/2023/
+[relay]: https://eprint.iacr.org/2023/096.pdf
+[sylvain]: https://s-chtl.github.io/
+[epflspring]: https://spring.epfl.ch/
+[mariana]: https://maargama.github.io/
+[erik]: https://www.esat.kuleuven.be/cosic/people/erik-pohle/
+[iv]: https://www.esat.kuleuven.be/cosic/people/ingrid-verbauwhede/
+
+

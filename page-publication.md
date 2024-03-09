@@ -27,7 +27,7 @@ Heydari Beni, E., B. Lagaisse, W. Joosen. 2019. <span style="color:blue">Interna
 
 #### Conferences
 `MPC With Delayed Parties Over Star-Like Networks` (under review)
-Mariana Gama, Emad Heydari Beni, Emmanuela Orsini, Nigel Smart, Oliver Zajonc. 2023. (under review) Cryptology ePrint Archive (<span style="color:blue">eprint'23</span>). [[pdf][bbmpc]]
+Mariana Gama, Emad Heydari Beni, Emmanuela Orsini, Nigel Smart, Oliver Zajonc. 2023. Asiacrypt conference by International Association for Cryptologic Research (<span style="color:blue">Asiacrypt'23</span>). [[pdf][bbmpc]]
 
 `ThunQ: A Distributed and Deep Authorization Middleware for Early and Lazy Policy Enforcement in Microservice Applications`
 Martijn Sauwens, Emad Heydari Beni, Kristof Jannes, Bert Lagaisse, Wouter Joosen. 2021. International Conference on Service-Oriented Computing (<span style="color:blue">ICSOC'21</span>). [[pdf][icsocthunq]]
